@@ -1,0 +1,15 @@
+<p>podcast-list works!</p>
+<pre>
+{{ podcastList$ | async | json }}
+</pre>
+<!-- <div *ngFor="let element of elements">{{ element }}</div> -->
+
+<!-- <audio controls preload="none" style="width:880px;"  preload="metadata">
+ <source src="https://anchor.fm/s/d619eb74/podcast/play/62481055/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-20%2Ffeb3a3ab-f38d-9d00-6766-6f490cce25dc.m4a" type="audio/mp4" />
+ <source src="path-to-oga.oga" type="audio/ogg" />
+ <p>Your browser does not support HTML5 audio.</p>
+ </audio>
+  -->
+  <div *ngFor="let podcastItem of podcastList$ | async">
+    <app-podcast-card [podcastItem]="podcastItem"></app-podcast-card>
+  </div>

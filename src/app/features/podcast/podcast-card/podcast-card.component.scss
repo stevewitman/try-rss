@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+@import '../../../../theme/theme';
+
+$accent: mat.get-color-from-palette($dark-primary, 700);
+
+
+
+.mat-card.card {
+  position: relative;
+  width: 256px;
+  padding: 1.25rem 2rem 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  @include mat.elevation(2);
+
+  &:hover {
+    transform: translateY(-5px);
+    @include mat.elevation(8);
+  }
+}

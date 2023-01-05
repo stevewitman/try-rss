@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
+	<channel>
+		<title><![CDATA[Angular Community Meetup]]></title>
+		<description><![CDATA[Same awesome Meetup brought to you podcast style. 
+
+The Angular Community Meetup was founded with the primary goal to help developers from across the globe, regardless of skill level, to learn and level up their Angular skills. Our events bring you a variety of technical and non-technical presentations, job networking, engagement, games, prizes, and FUN! 
+
+https://angularcommunity.net]]></description>
+		<link>https://www.angularcommunity.net</link>
+		<image>
+			<url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/35820229/35820229-1671204943710-bb8ae2eec30ea.jpg</url>
+			<title>Angular Community Meetup</title>
+			<link>https://www.angularcommunity.net</link>
+		</image>
+		<generator>Anchor Podcasts</generator>
+		<lastBuildDate>Sat, 31 Dec 2022 00:11:04 GMT</lastBuildDate>
+		<atom:link href="https://anchor.fm/s/d619eb74/podcast/rss" rel="self" type="application/rss+xml"/>
+		<author><![CDATA[Angular Community Meetup]]></author>
+		<copyright><![CDATA[Angular Community Meetup]]></copyright>
+		<language><![CDATA[en]]></language>
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+		<itunes:author>Angular Community Meetup</itunes:author>
+		<itunes:summary>Same awesome Meetup brought to you podcast style. 
+
+The Angular Community Meetup was founded with the primary goal to help developers from across the globe, regardless of skill level, to learn and level up their Angular skills. Our events bring you a variety of technical and non-technical presentations, job networking, engagement, games, prizes, and FUN! 
+
+https://angularcommunity.net</itunes:summary>
+		<itunes:type>episodic</itunes:type>
+		<itunes:owner>
+			<itunes:name>Angular Community Meetup</itunes:name>
+			<itunes:email>angularcommunitymeetup@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>No</itunes:explicit>
+		<itunes:category text="Technology"/>
+		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/35820229/35820229-1671204943710-bb8ae2eec30ea.jpg"/>
+		<item>
+			<title><![CDATA[001 - Welcome to the Angular Community Meetup Podcast!]]></title>
+			<description><![CDATA[<p>Hello Angular Community! Participating in professional meetups can have some MAJOR benefits for your career. Networking, being part of a supportive community with shared goals and interests, and, of course, the LEARNING! But life is life and it's not always possible to join a meetup as it's happening. We get it. Which is why we've created the Angular Community Meetup Podcast - to bring you some of our live sessions in a podcast format so you can listen at your total convenience. In this episode, Brooke &amp; Preston share our purpose and future plans of what you can expect in 2023 and beyond!</p>]]></description>
+			<link>https://anchor.fm/angular-community-m/episodes/001---Welcome-to-the-Angular-Community-Meetup-Podcast-e1sh96v</link>
+			<guid isPermaLink="false">fa946795-5117-46e9-8579-8b28b2ca9515</guid>
+			<dc:creator><![CDATA[Angular Community Meetup]]></dc:creator>
+			<pubDate>Tue, 20 Dec 2022 21:40:27 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/d619eb74/podcast/play/62481055/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-20%2Ffeb3a3ab-f38d-9d00-6766-6f490cce25dc.m4a" length="10816880" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Hello Angular Community! Participating in professional meetups can have some MAJOR benefits for your career. Networking, being part of a supportive community with shared goals and interests, and, of course, the LEARNING! But life is life and it&apos;s not always possible to join a meetup as it&apos;s happening. We get it. Which is why we&apos;ve created the Angular Community Meetup Podcast - to bring you some of our live sessions in a podcast format so you can listen at your total convenience. In this episode, Brooke &amp;amp; Preston share our purpose and future plans of what you can expect in 2023 and beyond!&lt;/p&gt;
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:12:27</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/35820229/35820229-1671204943710-bb8ae2eec30ea.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+    <item>
+			<title><![CDATA[002 - Second Podcast]]></title>
+			<description><![CDATA[<p>Hello Angular Community! Participating in professional meetups can have some MAJOR benefits for your career. Networking, being part of a supportive community with shared goals and interests, and, of course, the LEARNING! But life is life and it's not always possible to join a meetup as it's happening. We get it. Which is why we've created the Angular Community Meetup Podcast - to bring you some of our live sessions in a podcast format so you can listen at your total convenience. In this episode, Brooke &amp; Preston share our purpose and future plans of what you can expect in 2023 and beyond!</p>]]></description>
+			<link>https://anchor.fm/angular-community-m/episodes/001---Welcome-to-the-Angular-Community-Meetup-Podcast-e1sh96v</link>
+			<guid isPermaLink="false">fa946795-5117-46e9-8579-8b28b2ca9515</guid>
+			<dc:creator><![CDATA[Angular Community Meetup]]></dc:creator>
+			<pubDate>Tue, 20 Dec 2022 21:40:27 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/d619eb74/podcast/play/62481055/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-20%2Ffeb3a3ab-f38d-9d00-6766-6f490cce25dc.m4a" length="10816880" type="audio/x-m4a"/>
+			<itunes:summary>&lt;p&gt;Hello Angular Community! Participating in professional meetups can have some MAJOR benefits for your career. Networking, being part of a supportive community with shared goals and interests, and, of course, the LEARNING! But life is life and it&apos;s not always possible to join a meetup as it&apos;s happening. We get it. Which is why we&apos;ve created the Angular Community Meetup Podcast - to bring you some of our live sessions in a podcast format so you can listen at your total convenience. In this episode, Brooke &amp;amp; Preston share our purpose and future plans of what you can expect in 2023 and beyond!&lt;/p&gt;
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:12:27</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/35820229/35820229-1671204943710-bb8ae2eec30ea.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+	</channel>
+</rss>
