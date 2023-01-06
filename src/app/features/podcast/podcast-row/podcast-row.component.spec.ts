@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PodcastCardComponent } from './podcast-card.component';
+import { PodcastRowComponent } from './podcast-row.component';
 
-describe('PodcastCardComponent', () => {
-  let component: PodcastCardComponent;
-  let fixture: ComponentFixture<PodcastCardComponent>;
+describe('PodcastRowComponent', () => {
+  let component: PodcastRowComponent;
+  let fixture: ComponentFixture<PodcastRowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PodcastCardComponent ]
+      declarations: [ PodcastRowComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PodcastCardComponent);
+    fixture = TestBed.createComponent(PodcastRowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

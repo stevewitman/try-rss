@@ -3,6 +3,7 @@ export interface PodcastItem {
   description: string;
   link: string;
   pubDate: string;
+  audioUrl: string
   duration: string;
   season: string;
   episode: string;

@@ -10,12 +10,14 @@ import { PodcastItem } from './podcast-item';
 })
 export class PodcastService {
   #http = inject(HttpClient);
-  ACM_RSS_URL = 'https://anchor.fm/s/d619eb74/podcast/rss';
+  PODCAST_RSS_URL = 'https://anchor.fm/s/d619eb74/podcast/rss';
   parser = new DOMParser();
   podcastItems: PodcastItem[] = [];
 
   getPodcastXml(): Observable<string> {
-    // return this.#http.get(this.RSS_URL, { responseType: 'text' });
+    // return this.#http.get(this.PODCAST_RSS_URL, {
+    //   responseType: 'text',
+    // });
     return this.#http.get('./assets/test.xml', { responseType: 'text' });
   }
 
@@ -34,7 +36,9 @@ export class PodcastService {
         podcastItem.link =
           node.getElementsByTagName('link')[0].textContent || '';
         podcastItem.pubDate =
-          node.getElementsByTagName('pubDate')[0].textContent || '';
+          Date.parse(node.getElementsByTagName('pubDate')[0].textContent || '').toString();
+        podcastItem.audioUrl =
+          node.getElementsByTagName('enclosure')[0].getAttribute('url') || '';
         podcastItem.duration =
           node.getElementsByTagName('itunes:duration')[0].textContent || '';
         podcastItem.season =
@@ -44,7 +48,7 @@ export class PodcastService {
         this.podcastItems.push(podcastItem);
         // If last time through loop of items, next
         if (i === itemCount - 1) {
-          subject.next(this.podcastItems);
+          subject.next(this.podcastItems.reverse());
         }
       }
     });

@@ -1,0 +1,23 @@
+<div class="podcast-episode">
+  <span>ACM Podcast</span>
+  <div class="podcast-thumb">
+    <div class="square">
+      <img src="/assets/images/ACM_logo_main copy.png">
+    </div>
+  </div>
+  <div class="podcast-details">
+    <div class="podcast-title">{{ podcastItem?.title }}</div>
+    <div class="podcast-date">{{ podcastItem?.pubDate | date }}</div>
+    <div [ngClass]="{'podcast-description': descriptionCollapsed}" [innerHtml]="podcastItem?.description"></div>
+    <div class="discription-button" [ngClass]="{'description-button-expanded': !descriptionCollapsed}">
+      <button mat-button (click)="toggleDescriptionExpand()" [innerHtml]="expandButton"></button>
+    </div>
+    <div class="podcast-audio">
+      <audio controls preload="none" preload="metadata">
+        <source src="{{ podcastItem?.audioUrl }}" type="audio/mp4" />
+        <source src="path-to-oga.oga" type="audio/ogg" />
+        <p>Your browser does not support HTML5 audio.</p>
+      </audio>
+    </div>
+  </div>
+</div>
